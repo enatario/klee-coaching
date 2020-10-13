@@ -6,6 +6,8 @@ html {
 body {
   color: var(--color-text);
   font-family: var(--font-family--body);
+  font-size: 1.1rem;
+  line-height: var(--line-height--base);
 }
 
 a {
@@ -21,7 +23,27 @@ a {
   }
 }
 
+h2 {
+  font-size: 1rem;
+
+  &::before {
+    @include size(3rem, 2px);
+    background-color: var(--color-border--primary);
+    content: "";
+    display: block;
+  }
+}
+
+p,
+blockquote,
+figure,
+h1,
+h2 {
+  // margin: 0;
+}
+
 .t-headline {
   font-family: var(--font-family--headline);
   font-size: clamp(1.5rem, 2.5vw, 3rem);
+  line-height: var(--line-height--tight);
 }

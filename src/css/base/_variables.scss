@@ -25,6 +25,11 @@ $dir-font: "/static/fonts/";
   --font-weight--normal: 400;
   --font-weight--bold: 700;
 
+  --line-height--base: 1.5;
+  --line-height--tight: 1.1;
+
+  --breakpoint--base: 40em;
+
   --transition-duration--base: 0.2s;
   --transition-timing--base: ease-in-out;
 }
