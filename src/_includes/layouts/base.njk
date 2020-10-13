@@ -14,9 +14,11 @@
   <link rel="stylesheet" href="/app.css" as="style">
 </head>
 <body>
-  <main>
+  {% include "header.njk" %}
+  <main id="main">
     {{ content | safe }}
   </main>
+  {% include "footer.njk" %}
   <script type="text/javascript" src="/app.js" async></script>
 </body>
 </html>
