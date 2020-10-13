@@ -8,6 +8,19 @@ body {
   font-family: var(--font-family--body);
 }
 
+a {
+  color: var(--color-text);
+  font-weight: var(--font-weight--bold);
+  transition:
+    text-decoration
+    var(--transition-duration--base)
+    var(--transition-timing--base);
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
 .t-headline {
   font-family: var(--font-family--headline);
   font-size: clamp(1.5rem, 2.5vw, 3rem);

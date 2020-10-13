@@ -22,6 +22,9 @@ $dir-font: "/static/fonts/";
   --font-family--body: "WorkSans", sans-serif;
   --font-family--headline: "Quincy-CF", serif;
 
-  --transition-duration-base: 0.2s;
-  --transition-timing-base: ease-in-out;
+  --font-weight--normal: 400;
+  --font-weight--bold: 700;
+
+  --transition-duration--base: 0.2s;
+  --transition-timing--base: ease-in-out;
 }

@@ -1,0 +1,17 @@
+.button {
+  padding: 1rem;
+}
+
+.button--primary {
+  background-color: var(--color-green--dark);
+  color: var(--color-white);
+  text-decoration: none;
+  transition:
+    box-shadow
+    var(--transition-duration--base)
+    var(--transition-timing--base);
+
+  &:hover {
+    box-shadow: 5px 5px 0 0 var(--color-green--mid);
+  }
+}
