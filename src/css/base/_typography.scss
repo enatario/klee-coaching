@@ -5,4 +5,10 @@ html {
 
 body {
   color: var(--color-text);
+  font-family: var(--font-family--body);
+}
+
+.t-headline {
+  font-family: var(--font-family--headline);
+  font-size: clamp(1.5rem, 2.5vw, 3rem);
 }

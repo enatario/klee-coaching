@@ -1,0 +1,11 @@
+@include font-face("WorkSans", $dir-font + "work-sans") {
+  font-display: swap;
+  font-style: normal;
+  font-weight: 100 900;
+}
+
+@include font-face("Quincy-CF", $dir-font + "quincy-cf") {
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+}

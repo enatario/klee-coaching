@@ -1,3 +1,9 @@
+$bourbon: (
+  "global-font-file-formats": ("woff2"),
+);
+
+$dir-font: "/static/fonts/";
+
 :root {
   --color-green--light: #cfdbca;
   --color-green--mid: #87a27c;
@@ -12,6 +18,9 @@
   --color-border--primary: var(--color-green--mid);
   --color-border--secondary: var(--color-beige--dark);
   --color-box-shadow--primary: var(--color-green--mid);
+
+  --font-family--body: "WorkSans", sans-serif;
+  --font-family--headline: "Quincy-CF", serif;
 
   --transition-duration-base: 0.2s;
   --transition-timing-base: ease-in-out;
