@@ -38,12 +38,34 @@ p,
 blockquote,
 figure,
 h1,
-h2 {
-  // margin: 0;
+h2,
+h3 {
+  margin-top: 0;
+}
+
+h1 {
+  font-family: var(--font-family--headline);
+  font-size: clamp(3.5rem, 5vw, 5rem);
+  font-weight: normal;
+  line-height: var(--line-height--tight);
 }
 
 .t-headline {
   font-family: var(--font-family--headline);
-  font-size: clamp(1.5rem, 2.5vw, 3rem);
+  font-size: clamp(1.8rem, 2.8vw, 3rem);
   line-height: var(--line-height--tight);
+}
+
+blockquote {
+  margin: 0;
+  padding-left: 1rem;
+  text-indent: -2rem;
+
+  &::before {
+    content: "\201C";
+    display: block;
+    font-size: 200%;
+    line-height: 0;
+    transform: translateY(10px);
+  }
 }
