@@ -6,10 +6,6 @@ html {
   }
 }
 
-body {
-  background-color: var(--color-background--primary);
-}
-
 header {
   align-items: center;
   grid-auto-flow: column;
@@ -20,24 +16,29 @@ section,
 header,
 footer {
   display: grid;
-  grid-template-columns: minmax(auto, 60rem);
+  grid-template-columns: minmax(auto, var(--container--base));
   justify-content: center;
-  padding: 1.5rem;
+  padding: var(--space--base);
 }
 
-.section--tertiary {
-  background-color: var(--color-background--tertiary);
+header,
+.l-intro {
+  margin: 0 auto;
+  max-width: calc(var(--container--base) + calc(var(--space--base) * 2));
 }
 
-.section--secondary {
-  background-color: var(--color-background--secondary);
+.l-intro {
+  grid-gap: var(--space--base);
+
+  figure {
+    @media screen and (min-width: $breakpoint-base) {
+      grid-column-start: 2;
+    }
+  }
 }
 
 .grid--list {
   display: grid;
-  grid-gap: 1.5rem;
-
-  @media screen and (min-width: 40em) {
-    grid-template-columns: repeat(3, 1fr);
-  }
+  grid-gap: var(--space--base);
+  grid-template-columns: repeat(auto-fill, minmax(min(15rem, 100%), 1fr));
 }

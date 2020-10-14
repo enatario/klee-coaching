@@ -6,7 +6,7 @@ html {
 body {
   color: var(--color-text);
   font-family: var(--font-family--body);
-  font-size: 1.1rem;
+  font-size: var(--font-size--base);
   line-height: var(--line-height--base);
 }
 
@@ -24,14 +24,26 @@ a {
 }
 
 h2 {
-  font-size: 1rem;
+  font-size: var(--font-size--small);
 
   &::before {
-    @include size(3rem, 2px);
+    $_line-width: 2rem;
+    @include size($_line-width, 2px);
     background-color: var(--color-border--primary);
     content: "";
-    display: block;
+    display: none;
+    margin-left: calc((#{$_line-width} + var(--space--small)) * -1);
+    margin-right: var(--space--small);
+    vertical-align: middle;
+
+    @media screen and (min-width: $breakpoint-base) {
+      display: inline-block;
+    }
   }
+}
+
+h3 {
+  margin-bottom: var(--space--small);
 }
 
 p,
@@ -43,29 +55,48 @@ h3 {
   margin-top: 0;
 }
 
-h1 {
+h1,
+.t-headline {
   font-family: var(--font-family--headline);
-  font-size: clamp(3.5rem, 5vw, 5rem);
   font-weight: normal;
   line-height: var(--line-height--tight);
 }
 
-.t-headline {
+h1 {
   font-family: var(--font-family--headline);
-  font-size: clamp(1.8rem, 2.8vw, 3rem);
-  line-height: var(--line-height--tight);
+  font-size: clamp(3rem, 3.8vw, 4rem);
+}
+
+.t-headline {
+  font-size: clamp(1.8rem, 2.5vw, 3rem);
+  max-width: 30ch;
+}
+
+.t-callout {
+  font-weight: var(--font-weight--bold);
 }
 
 blockquote {
   margin: 0;
-  padding-left: 1rem;
-  text-indent: -2rem;
 
   &::before {
     content: "\201C";
     display: block;
     font-size: 200%;
     line-height: 0;
-    transform: translateY(10px);
+    transform: translate(-1.5rem, 1rem);
+
+    @media screen and (min-width: $breakpoint-base) {
+      transform: translate(-2rem, 1.5rem);
+    }
+  }
+}
+
+figcaption {
+  font-size: var(--font-size--small);
+  margin-top: var(--space--small);
+
+  p {
+    margin: 0;
   }
 }

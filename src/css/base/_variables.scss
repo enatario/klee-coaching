@@ -4,6 +4,8 @@ $bourbon: (
 
 $dir-font: "/static/fonts/";
 
+$breakpoint-base: 55em;
+
 :root {
   --color-green--light: #cfdbca;
   --color-green--mid: #87a27c;
@@ -22,13 +24,19 @@ $dir-font: "/static/fonts/";
   --font-family--body: "WorkSans", sans-serif;
   --font-family--headline: "Quincy-CF", serif;
 
+  --font-size--small: 0.9rem;
+  --font-size--base: 1.1rem;
+
   --font-weight--normal: 400;
   --font-weight--bold: 700;
 
   --line-height--base: 1.5;
   --line-height--tight: 1.1;
 
-  --breakpoint--base: 40em;
+  --container--base: 60rem;
+
+  --space--small: 0.5rem;
+  --space--base: 1.5rem;
 
   --transition-duration--base: 0.2s;
   --transition-timing--base: ease-in-out;
