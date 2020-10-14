@@ -11,9 +11,18 @@ body {
 }
 
 picture {
-  background-color: var(--color-background--secondary);
+  background-image: linear-gradient(
+    135deg,
+    var(--color-white) 10%,
+    var(--color-green--light) 40%,
+    var(--color-beige--dark));
+  box-shadow: var(--box-shadow--top);
 
   img {
     mix-blend-mode: multiply;
   }
+}
+
+svg {
+  fill: currentColor;
 }

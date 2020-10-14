@@ -79,6 +79,7 @@ h1 {
 
 blockquote {
   margin: 0;
+  padding-top: var(--space--small);
 
   &::before {
     content: "\201C";
