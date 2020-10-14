@@ -18,7 +18,8 @@ a {
     var(--transition-duration--base)
     var(--transition-timing--base);
 
-  &:hover {
+  &:hover,
+  &:active {
     color: var(--color-green--mid);
   }
 }
