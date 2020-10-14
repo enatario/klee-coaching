@@ -2,10 +2,18 @@ body {
   background-color: var(--color-background--primary);
 }
 
+.l-secondary {
+  background-color: var(--color-background--secondary);
+}
+
 .l-tertiary {
   background-color: var(--color-background--tertiary);
 }
 
-.l-secondary {
+picture {
   background-color: var(--color-background--secondary);
+
+  img {
+    mix-blend-mode: multiply;
+  }
 }

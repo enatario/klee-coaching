@@ -41,12 +41,9 @@ header,
     }
   }
 
-  picture {
-    box-shadow: var(--box-shadow--base);
-  }
-
   img {
-    max-height: 15rem;
+    box-shadow: var(--box-shadow--base);
+    max-height: 20rem;
     object-fit: cover;
   }
 }
