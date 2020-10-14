@@ -8,6 +8,7 @@ html {
 
 header {
   align-items: center;
+  background-color: var(--color-background--primary);
   grid-auto-flow: column;
   justify-content: space-between;
 }
@@ -19,6 +20,10 @@ footer {
   grid-template-columns: minmax(auto, var(--container--base));
   justify-content: center;
   padding: var(--space--base);
+}
+
+footer {
+  justify-items: start;
 }
 
 header,
@@ -34,6 +39,15 @@ header,
     @media screen and (min-width: $breakpoint-base) {
       grid-column-start: 2;
     }
+  }
+
+  picture {
+    box-shadow: var(--box-shadow--base);
+  }
+
+  img {
+    max-height: 15rem;
+    object-fit: cover;
   }
 }
 

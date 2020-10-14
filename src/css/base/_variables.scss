@@ -4,7 +4,7 @@ $bourbon: (
 
 $dir-font: "/static/fonts/";
 
-$breakpoint-base: 55em;
+$breakpoint-base: 40em;
 
 :root {
   --color-green--light: #cfdbca;
@@ -37,6 +37,8 @@ $breakpoint-base: 55em;
 
   --space--small: 0.5rem;
   --space--base: 1.5rem;
+
+  --box-shadow--base: 5px 5px 0 0 var(--color-green--mid);
 
   --transition-duration--base: 0.2s;
   --transition-timing--base: ease-in-out;

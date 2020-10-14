@@ -15,6 +15,6 @@
     var(--transition-timing--base);
 
   &:hover {
-    box-shadow: 5px 5px 0 0 var(--color-green--mid);
+    box-shadow: var(--box-shadow--base);
   }
 }

@@ -1,9 +1,26 @@
 ul,
 ol {
+  list-style: none;
   margin: 0;
   padding: 0;
 }
 
-ul {
-  list-style: none;
+ol {
+  counter-reset: list;
+  margin-left: -1rem;
+
+  li {
+    counter-increment: list;
+    display: grid;
+    grid-auto-flow: column dense;
+    grid-auto-rows: min-content;
+
+    &::before {
+      align-self: start;
+      content: counter(list)".";
+      font-size: var(--font-size--small);
+      grid-row: span 2;
+      margin-right: var(--space--small);
+    }
+  }
 }
