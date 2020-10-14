@@ -2,12 +2,22 @@ body {
   background-color: var(--color-background--primary);
 }
 
+*:focus {
+  background-color: var(--color-beige--light);
+  color: var(--color-text);
+  outline-color: var(--color-beige--dark);
+}
+
 .l-secondary {
   background-color: var(--color-background--secondary);
 }
 
 .l-tertiary {
   background-color: var(--color-background--tertiary);
+}
+
+footer {
+  border-top: 1px solid var(--color-border--primary);
 }
 
 picture {
