@@ -1,0 +1,25 @@
+html {
+  scroll-behavior: smooth;
+
+  @media screen and (prefers-reduced-motion: reduce) {
+    scroll-behavior: auto;
+  }
+}
+
+[data-item] {
+  opacity: 0;
+  transform: translateY(1rem);
+  transition-duration: var(--transition-duration--long);
+  transition-property: opacity, transform;
+  transition-timing-function: var(--transition-timing--base);
+
+  @media screen and (prefers-reduced-motion: reduce) {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  &.is-shown {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
