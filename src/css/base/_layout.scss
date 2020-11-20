@@ -43,4 +43,24 @@ header,
   display: grid;
   grid-gap: var(--space--base);
   grid-template-columns: repeat(auto-fill, minmax(min(15rem, 100%), 1fr));
+  margin-top: var(--space--large);
+}
+
+.grid--scroll {
+  display: grid;
+  grid-auto-columns: 80vw;
+  grid-auto-flow: column;
+  grid-gap: var(--space--large);
+  overflow-x: scroll;
+  padding: var(--space--small) 2rem;
+  scroll-padding: var(--space--large);
+  scroll-snap-type: x mandatory;
+
+  @media screen and (min-width: $breakpoint-base) {
+    grid-auto-columns: 60vw;
+  }
+
+  > * {
+    scroll-snap-align: start;
+  }
 }
