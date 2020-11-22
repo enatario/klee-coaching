@@ -48,3 +48,4 @@ fields:
 pages:
 - src/_data/how.json
 - src/_data/philosophy.json
+- src/_data/why.json
