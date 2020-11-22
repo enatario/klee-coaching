@@ -1,19 +1,13 @@
 <section id="how-it-works" aria-labelledby="section--how-it-works" class="l-primary">
   <h2 id="section--how-it-works">How it works</h2>
-  <p class="t-headline">My approach is client-centric, professional and results driven. The process is flexible and designed to suit your needs with a number of session format options available including in-person, phone and virtual. Session schedules are set in advance by the client but are adaptable to the unforeseen that may arise from time to time.</p>
+  <p class="t-headline">{{ how.title }}</p>
   
   <ol class="grid--list">
+    {% for item in how.list %}
     <li>
-      <h3>We’ll start with a commitment-free introductory conversation.</h3>
-      <p>Here we’ll have the opportunity to get to know one another, pose questions and explore whether Klee Leadership Coaching is right for you.</p>
+      <h3>{{ item.title }}</h3>
+      <p>{{ item.description }}</p>
     </li>
-    <li>
-      <h3>We’ll get to work on your roadmap!</h3>
-      <p>We’ll discuss your overall coaching goals and work together to craft a roadmap and schedule to ensure that you are fully equipped to reach your desired destination at the conclusion of our coaching journey. I will then send along a simple letter of understanding summarizing the mechanics of our agreement.</p>
-    </li>
-    <li>
-      <h3>We’ll part ways.</h3>
-      <p>At the conclusion of our engagement, you will have achieved your leadership development goals and be fully equipped to continue developing your leadership toolkit on your own in the future.</p>
-    </li>
+    {% endfor %}
   </ol>
 </section>
