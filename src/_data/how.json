@@ -1,9 +1,17 @@
 {
-  "title": "title",
+  "title": "My approach is client-centric, professional and results driven. The process is flexible and designed to suit your needs with a number of session format options available including in-person, phone and virtual. Session schedules are set in advance by the client but are adaptable to the unforeseen that may arise from time to time.",
   "list": [
     {
-      "title": "subtitle",
-      "description": "description goes right here."
+      "title": "We’ll start with a commitment-free introductory conversation.",
+      "description": "Here we’ll have the opportunity to get to know one another, pose questions and explore whether Klee Leadership Coaching is right for you."
+    },
+    {
+      "title": "We’ll get to work on your roadmap!",
+      "description": "We’ll discuss your overall coaching goals and work together to craft a roadmap and schedule to ensure that you are fully equipped to reach your desired destination at the conclusion of our coaching journey. I will then send along a simple letter of understanding summarizing the mechanics of our agreement."
+    },
+    {
+      "title": "We’ll part ways.",
+      "description": "At the conclusion of our engagement, you will have achieved your leadership development goals and be fully equipped to continue developing your leadership toolkit on your own in the future."
     }
   ]
 }
