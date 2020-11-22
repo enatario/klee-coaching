@@ -34,7 +34,7 @@ fields:
       required: true
     label: Alternative text
     description: Alt text for visually impaired
-    default: A headshot of Stephen Klee.
+    default: ''
   - name: caption
     type: text
     config:
