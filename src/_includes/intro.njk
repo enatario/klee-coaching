@@ -1,14 +1,14 @@
 <section id="intro" aria-labelledby="section--intro" class="l-intro">
   <div>
-    <h1 id="section--intro">Serving club and hospitality industry leaders who have the courage to evolve.</h1>
-    <p class="t-subhead">Stephen Klee, leadership coach</p>
+    <h1 id="section--intro">{{ intro.headline.title }}</h1>
+    <p class="t-subhead">{{ intro.headline.subtitle }}</p>
     <a href="#get-in-touch" class="button button--primary">Get in touch</a>
     <a href="#my-philosophy" class="button button--secondary">My philosophy</a>
   </div>
   <figure>
     <picture>
-      <img src="/static/images/klee__headshot.jpg" alt="A headshot of Stephen Klee.">
+      <img src="{{ intro.headshot.image }}" alt="{{ intro.headshot.alt }}">
     </picture>
-    <figcaption>Hey, that’s me! Stephen Klee.</figcaption>
+    <figcaption>{{ intro.headshot.caption }}</figcaption>
   </figure>
 </section>

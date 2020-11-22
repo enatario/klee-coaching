@@ -1,0 +1,11 @@
+{
+  "headline": {
+    "title": "Title goes here.",
+    "subtitle": "subtitle goes here"
+  },
+  "headshot": {
+    "image": "/static/images/klee__headshot.jpg",
+    "alt": "A headshot of Stephen Klee.",
+    "caption": "Hey, that’s me! Stephen Klee."
+  }
+}
