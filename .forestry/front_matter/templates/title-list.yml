@@ -11,6 +11,18 @@ fields:
     schema:
       format: markdown
   label: Title
+- name: quote_title
+  type: boolean
+  label: Quote title
+  description: If the title of the section is a quote, turn this on
+- name: attribution
+  type: text
+  config:
+    required: false
+  label: Attribution
+  showOnly:
+    field: quote_title
+    value: true
 - name: list
   type: field_group_list
   fields:
