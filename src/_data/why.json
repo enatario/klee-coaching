@@ -1,0 +1,12 @@
+{
+  "quote": {
+    "text": "Quote text here",
+    "attribution": "Attribution here"
+  },
+  "list": [
+    {
+      "title": "subhead",
+      "description": "description"
+    }
+  ]
+}
