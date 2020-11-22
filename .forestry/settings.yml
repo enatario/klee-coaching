@@ -3,7 +3,12 @@ new_page_extension: md
 auto_deploy: false
 admin_path: src/portal
 webhook_url: 
-sections: 
+sections:
+- type: directory
+  path: ''
+  label: Main
+  create: all
+  match: "**/*"
 upload_dir: src/static/images
 public_path: "/static/images"
 front_matter_path: ''
