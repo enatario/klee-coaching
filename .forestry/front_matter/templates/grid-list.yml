@@ -1,4 +1,26 @@
 ---
 label: Grid list
 hide_body: true
-fields: []
+fields:
+- name: list
+  type: field_group_list
+  fields:
+  - name: header
+    type: text
+    config:
+      required: true
+    label: Header
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Description
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: List
