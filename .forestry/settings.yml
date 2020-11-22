@@ -3,13 +3,7 @@ new_page_extension: md
 auto_deploy: false
 admin_path: src/portal
 webhook_url: 
-sections:
-- type: document
-  path: src/_data/certifications.json
-  label: Certifications
-- type: document
-  path: src/_data/philosophy.json
-  label: Philosophy
+sections: 
 upload_dir: src/static/images
 public_path: "/static/images"
 front_matter_path: ''
