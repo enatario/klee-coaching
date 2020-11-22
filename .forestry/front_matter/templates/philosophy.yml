@@ -1,5 +1,5 @@
 ---
-label: Philosophy
+label: Main section
 hide_body: true
 fields:
 - name: title
@@ -28,4 +28,4 @@ fields:
     min: 
     max: 
     labelField: 
-  label: Philosophy list
+  label: List items
