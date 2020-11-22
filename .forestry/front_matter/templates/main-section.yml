@@ -7,6 +7,25 @@ fields:
   config:
     required: true
   label: Title
+- name: quote
+  type: field_group
+  config: {}
+  fields:
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Text
+  - name: attribution
+    type: text
+    config:
+      required: true
+    label: Attribution
+  label: Quote
 - name: list
   type: field_group_list
   fields:
@@ -29,25 +48,6 @@ fields:
     max: 
     labelField: 
   label: List items
-- name: quote
-  type: field_group
-  config: {}
-  fields:
-  - name: text
-    type: textarea
-    default: ''
-    config:
-      required: true
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: Text
-  - name: attribution
-    type: text
-    config:
-      required: true
-    label: Attribution
-  label: Quote
 - name: quote_list
   type: field_group_list
   fields:
