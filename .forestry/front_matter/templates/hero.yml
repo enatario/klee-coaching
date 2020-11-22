@@ -28,7 +28,7 @@ fields:
     label: Image
     description: Image should be at least 500x500<br>Maintain a square shape
     default: "/static/images/klee__headshot.jpg"
-  - name: alternative_text
+  - name: alt
     type: text
     config:
       required: true
