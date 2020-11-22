@@ -5,13 +5,11 @@ admin_path: src/portal
 webhook_url: 
 sections:
 - type: document
-  path: src/_data/certifications.njk
+  path: src/_data/certifications.json
   label: Certifications
-  match: "**/*"
 - type: document
-  path: src/_data/philosophy.njk
+  path: src/_data/philosophy.json
   label: Philosophy
-  match: "**/*"
 upload_dir: src/static/images
 public_path: "/static/images"
 front_matter_path: ''
