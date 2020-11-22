@@ -1,4 +1,31 @@
 ---
 label: Testimonials
 hide_body: false
-fields: []
+fields:
+- name: quote_list
+  type: field_group_list
+  fields:
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Text
+  - name: attribution
+    type: text
+    config:
+      required: true
+    label: Attribution
+  - name: extra_info
+    type: text
+    config:
+      required: false
+    label: Extra info
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Quote list
