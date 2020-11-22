@@ -8,6 +8,8 @@ sections:
   label: Intro
 - type: heading
   label: Why Coaching
+- type: heading
+  label: Testimonials
 upload_dir: src/static/images
 public_path: "/static/images"
 front_matter_path: ''
