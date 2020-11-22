@@ -1,4 +1,26 @@
 ---
 label: Philosophy
 hide_body: true
-fields: []
+fields:
+- name: grid_list
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: true
+    label: Title
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Description
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Grid list
