@@ -1,6 +1,6 @@
 ---
 label: Hero
-hide_body: false
+hide_body: true
 fields:
 - name: headline
   type: field_group
