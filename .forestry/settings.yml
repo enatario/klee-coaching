@@ -6,17 +6,7 @@ webhook_url:
 sections:
 - type: document
   path: src/_data/philosophy.json
-  label: Test
-- type: heading
-  label: Why Coaching
-- type: heading
   label: Philosophy
-- type: heading
-  label: Testimonials
-- type: heading
-  label: Certifications
-- type: heading
-  label: How it works
 upload_dir: src/static/images
 public_path: "/static/images"
 front_matter_path: ''
