@@ -47,11 +47,6 @@ fields:
     config:
       required: true
     label: Attribution
-  - name: extra_info
-    type: text
-    config:
-      required: false
-    label: Extra info
   label: Quote
 - name: quote_list
   type: field_group_list
