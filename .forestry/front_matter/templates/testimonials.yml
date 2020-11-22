@@ -25,8 +25,8 @@ fields:
       required: false
     label: Extra info
   config:
-    min: 
-    max: 
+    min: 2
+    max: 4
     labelField: 
   label: Quote list
 pages:
