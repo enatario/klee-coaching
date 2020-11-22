@@ -1,6 +1,6 @@
 ---
-label: Headshot
-hide_body: true
+label: Intro
+hide_body: false
 fields:
 - name: headshot_image
   type: file
