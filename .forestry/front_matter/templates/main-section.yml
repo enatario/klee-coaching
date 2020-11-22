@@ -29,3 +29,27 @@ fields:
     max: 
     labelField: 
   label: List items
+- name: quote
+  type: field_group
+  config: {}
+  fields:
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Text
+  - name: attribution
+    type: text
+    config:
+      required: true
+    label: Attribution
+  - name: extra_info
+    type: text
+    config:
+      required: false
+    label: Extra info
+  label: Quote
