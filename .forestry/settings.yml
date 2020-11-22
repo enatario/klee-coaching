@@ -12,6 +12,8 @@ sections:
   label: Philosophy
 - type: heading
   label: Testimonials
+- type: heading
+  label: Certifications
 upload_dir: src/static/images
 public_path: "/static/images"
 front_matter_path: ''
