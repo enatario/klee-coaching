@@ -7,7 +7,6 @@ sections:
 - type: document
   path: src/_data/certifications.json
   label: Certifications
-  match: "**/*"
 - type: document
   path: src/_data/philosophy.json
   label: Philosophy
