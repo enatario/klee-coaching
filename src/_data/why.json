@@ -1,8 +1,7 @@
 {
-  "quote": {
-    "text": "If your actions inspire others to dream more, learn more, do more and become more, you are a leader.",
-    "attribution": "John Quincy Adams"
-  },
+  "title": "If your actions inspire others to dream more, learn more, do more and become more, you are a leader.",
+  "quote_title": true,
+  "attribution": "John Quincy Adams",
   "list": [
     {
       "title": "What is leadership coaching?",
