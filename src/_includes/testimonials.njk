@@ -1,26 +1,14 @@
 <section id="testimonials" aria-labelledby="section--testimonials" class="l-secondary">
   <h2 id="section--testimonials" class="u-hide-visually">Testimonials</h2>
   <div class="grid--scroll">
+    {% for item in testimonials.quote_list %}
     <figure>
-      <blockquote class="t-headline">I am grateful for the time Steve spent with me and sincerely appreciate his approach. The key to any successful coach is making the client comfortable enough to open up and be vulnerable. He did that beautifully and for that I am sincerely appreciative. I would recommend Steve as a leadership coach because of his ability to listen, relate and offer up thoughtful observations. I am grateful for the opportunity to have worked with him.</blockquote>
+      <blockquote class="t-headline">{{ item.text }}</blockquote>
       <figcaption>
-        <p class="t-quote-name">Carla Tardiff</p>
-        <p>CEO, Family Reach</p>
+        <p class="t-quote-name">{{ item.attribution }}</p>
+        <p>{{ item.extra_info }}</p>
       </figcaption>
     </figure>
-    <figure>
-      <blockquote class="t-headline">Steve helped me by providing dedicated time to talk through and process my approach to managing my most important priorities and by asking good questions that encouraged me to go deeper in my thinking. Overall, I found the experience very beneficial. I would recommend Steve to professionals who need any type of leadership development.</blockquote>
-      <figcaption>
-        <p class="t-quote-name">CFO</p>
-        <p>Regional Financial Institute</p>
-      </figcaption>
-    </figure>
-    <figure>
-      <blockquote class="t-headline">Steve’s positive presence and caring nature helped me to open up and dig deeper into this coaching partnership. He was a great listener who seems to have a natural talent for helping people reflect honestly and openly. I truly grew from this experience and would recommend Klee Leadership Coaching to anyone looking to enhance their personal and professional lives”.</blockquote>
-      <figcaption>
-        <p class="t-quote-name">Dr. Kevin McCahill</p>
-        <p>Superintendent of Union Free Nanuet School District</p>
-      </figcaption>
-    </figure>
+    {% endfor %}
   </div>
 </section>
