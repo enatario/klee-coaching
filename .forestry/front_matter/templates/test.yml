@@ -8,9 +8,21 @@ fields:
     maxSize: 64
   default: "/static/images/klee__headshot.jpg"
   label: Headshot image
-- name: caption
+- name: headshot_caption
   type: text
   config:
     required: true
-  label: Caption
+  label: Headshot caption
   default: Hey, that’s me! Stephen Klee.
+- name: intro_headline
+  type: text
+  config:
+    required: true
+  label: Intro headline
+  default: Serving club and hospitality industry leaders who have the courage to evolve.
+- name: intro_subhead
+  type: text
+  config:
+    required: false
+  label: Intro subhead
+  default: Stephen Klee, leadership coach
