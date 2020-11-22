@@ -6,7 +6,7 @@
     {% for item in philosophy.list %}
     <li>
       <h3>{{ item.title }}</h3>
-      <p>{{ item.description }}</p>
+      <p>{{ item.description | safe }}</p>
     </li>
     {% endfor %}
   </ul>

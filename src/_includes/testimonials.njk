@@ -3,10 +3,10 @@
   <div class="grid--scroll">
     {% for item in testimonials.quote_list %}
     <figure>
-      <blockquote class="t-headline">{{ item.text }}</blockquote>
+      <blockquote class="t-headline">{{ item.text | safe }}</blockquote>
       <figcaption>
-        <p class="t-quote-name">{{ item.attribution }}</p>
-        <p>{{ item.extra_info }}</p>
+        <p class="t-quote-name">{{ item.attribution | safe }}</p>
+        <p>{{ item.extra_info | safe }}</p>
       </figcaption>
     </figure>
     {% endfor %}
