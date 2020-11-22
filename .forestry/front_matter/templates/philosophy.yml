@@ -7,7 +7,7 @@ fields:
   config:
     required: true
   label: Title
-- name: grid_list
+- name: list
   type: field_group_list
   fields:
   - name: title
@@ -28,4 +28,4 @@ fields:
     min: 
     max: 
     labelField: 
-  label: Grid list
+  label: Philosophy list
