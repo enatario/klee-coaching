@@ -24,3 +24,5 @@ fields:
     max: 
     labelField: 
   label: List
+pages:
+- src/_data/certifications.json
