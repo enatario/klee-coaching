@@ -53,7 +53,7 @@ fields:
       required: false
     label: Extra info
   label: Quote
-- name: testimonials
+- name: quote_list
   type: field_group_list
   fields:
   - name: text
