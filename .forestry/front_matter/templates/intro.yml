@@ -2,18 +2,6 @@
 label: Intro
 hide_body: false
 fields:
-- name: headshot_image
-  type: file
-  config:
-    maxSize: 64
-  default: "/static/images/klee__headshot.jpg"
-  label: Headshot image
-- name: headshot_caption
-  type: text
-  config:
-    required: true
-  label: Headshot caption
-  default: Hey, that’s me! Stephen Klee.
 - name: intro_headline
   type: text
   config:
@@ -26,3 +14,20 @@ fields:
     required: true
   label: Intro subhead
   default: Stephen Klee, leadership coach
+- name: headshot
+  type: field_group
+  config: {}
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+    default: "/static/images/klee__headshot.jpg"
+  - name: caption
+    type: text
+    config:
+      required: true
+    label: Caption
+    default: Hey, that’s me! Stephen Klee.
+  label: Headshot
