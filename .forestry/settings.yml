@@ -7,7 +7,6 @@ sections:
 - type: document
   path: src/_data/philosophy.json
   label: Test
-  match: "**/*"
 - type: heading
   label: Why Coaching
 - type: heading
