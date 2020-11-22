@@ -5,6 +5,10 @@ admin_path: src/portal
 webhook_url: 
 sections:
 - type: document
+  path: src/_data/intro.json
+  label: Intro
+  match: "**/*"
+- type: document
   path: src/_data/why.json
   label: Why coaching
 - type: document
