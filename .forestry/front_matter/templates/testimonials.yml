@@ -29,3 +29,5 @@ fields:
     max: 
     labelField: 
   label: Quote list
+pages:
+- src/_data/testimonials.json
