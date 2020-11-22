@@ -28,6 +28,13 @@ fields:
     label: Image
     description: Image should be at least 500x500<br>Maintain a square shape
     default: "/static/images/klee__headshot.jpg"
+  - name: alternative_text
+    type: text
+    config:
+      required: true
+    label: Alternative text
+    description: Alt text for visually impaired
+    default: A headshot of Stephen Klee.
   - name: caption
     type: text
     config:
