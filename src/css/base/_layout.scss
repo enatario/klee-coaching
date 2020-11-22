@@ -57,7 +57,7 @@ header,
   scroll-snap-type: x mandatory;
 
   @media screen and (min-width: $breakpoint-base) {
-    grid-auto-columns: 60vw;
+    grid-auto-columns: 50vw;
   }
 
   > * {
