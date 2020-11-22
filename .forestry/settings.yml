@@ -4,10 +4,14 @@ auto_deploy: false
 admin_path: src/portal
 webhook_url: 
 sections:
+- type: directory
+  path: ''
+  label: Main
+  create: all
+  match: "**/*"
 - type: document
   path: src/_includes/intro.njk
   label: Intro
-  match: "**/*"
 - type: heading
   label: Why Coaching
 - type: heading
