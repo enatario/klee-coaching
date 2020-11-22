@@ -1,4 +1,37 @@
 ---
 label: Hero
 hide_body: false
-fields: []
+fields:
+- name: headline
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: true
+    label: Title
+  - name: subhead
+    type: text
+    config:
+      required: true
+    label: Subhead
+  label: Headline
+- name: headshot
+  type: field_group
+  config: {}
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+    description: Image should be at least 500x500<br>Maintain a square shape
+    default: "/static/images/klee__headshot.jpg"
+  - name: caption
+    type: text
+    config:
+      required: false
+    label: Caption
+    default: Hey, that’s me! Stephen Klee.
+  label: Headshot
