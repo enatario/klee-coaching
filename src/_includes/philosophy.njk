@@ -1,28 +1,13 @@
 <section id="my-philosophy" aria-labelledby="section--philosophy" class="l-tertiary">
   <h2 id="section--philosophy">My philosophy</h2>
-  <p class="t-headline">I believe that leadership is the ultimate lever for positive transformation and value creation. Klee Leadership Coaching exists to help leaders who want to stretch and explore personal growth in a
-collaborative, safe and creative space—one courageous conversation at a time.</p>
+  <p class="t-headline">{{ philosophy.title }}</p>
   
   <ul class="grid--list">
+    {% for item in philosophy.grid_list %}
     <li>
-      <h3>Self-Awareness</h3>
-      <p>Relationships are the lifeblood of an organization. The key relationship, the one which will ultimately determine the success of an organization, is a leader’s own awareness of ‘self’. KLC supports a leader on the journey to ‘know thyself’.</p>
+      <h3>{{ item.title }}</h3>
+      <p>{{ item.description }}</p>
     </li>
-    <li>
-      <h3>Servant Leadership</h3>
-      <p>The best leaders see their role as a calling—a noble calling to create a better future for their teams, their colleagues, their members/customers, their communities and their families. Lead with your heart.</p>
-    </li>
-    <li>
-      <h3>Vulnerability and Trust</h3>
-      <p>Vulnerability, authenticity and trust lie at the root of human connection. It takes courage to be yourself. Be daring. Be you. Lead.</p>
-    </li>
-    <li>
-      <h3>Listening</h3>
-      <p>Do you remember the last time you had a conversation where you felt that the other person was really listening to you? Active listening lets others know that you care about them, as well as what they’re trying to say. Coaching sparks listening.</p>
-    </li>
-    <li>
-      <h3>Learning</h3>
-      <p>Top leaders harness self-awareness, consistency and time to produce maximum results. The key is to make daily micro-progress towards your goals, rather than expecting major breakthroughs to materialize overnight. KLC is a dedicated partner on your learning journey.</p>
-    </li>
+    {% endfor %}
   </ul>
 </section>
