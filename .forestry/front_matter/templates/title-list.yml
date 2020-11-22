@@ -2,11 +2,6 @@
 label: Title + List
 hide_body: false
 fields:
-- name: title
-  type: text
-  config:
-    required: true
-  label: Title
 - name: list
   type: field_group_list
   fields:
@@ -29,3 +24,12 @@ fields:
     max: 
     labelField: 
   label: List
+- name: title
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Title
