@@ -23,6 +23,6 @@ fields:
 - name: intro_subhead
   type: text
   config:
-    required: false
+    required: true
   label: Intro subhead
   default: Stephen Klee, leadership coach
