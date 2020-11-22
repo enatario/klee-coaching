@@ -1,4 +1,16 @@
 ---
-label: Test
-hide_body: false
-fields: []
+label: Headshot
+hide_body: true
+fields:
+- name: headshot_image
+  type: file
+  config:
+    maxSize: 64
+  default: "/static/images/klee__headshot.jpg"
+  label: Headshot image
+- name: caption
+  type: text
+  config:
+    required: true
+  label: Caption
+  default: Hey, that’s me! Stephen Klee.
