@@ -1,12 +1,20 @@
 {
   "quote": {
-    "text": "Quote text here",
-    "attribution": "Attribution here"
+    "text": "If your actions inspire others to dream more, learn more, do more and become more, you are a leader.",
+    "attribution": "John Quincy Adams"
   },
   "list": [
     {
-      "title": "subhead",
-      "description": "description"
+      "title": "What is leadership coaching?",
+      "description": "Coaching is a collaborative quest of self-discovery grounded in the idea that each of us is creative, resourceful and whole. It is about establishing a relationship and having intentional conversations that help leaders see the best parts of themselves and the world around them so they can shift onto the most promising pathway going forward."
+    },
+    {
+      "title": "Why have a coach?",
+      "description": "Organizations of all types and sizes are a collective of dynamic human endeavors that require and deserve a leader’s best. Coaching helps leaders, at all points on their career arc, in aligning their behaviors with achieving the results that are most important to the long-term success of the leader and the organization."
+    },
+    {
+      "title": "How may I help you?",
+      "description": "Board and Owner Relations, Embracing Feedback, The Work/Life Balance, Career Transitions, Procrastination & Time Management, Professional Burnout, Team Dynamics, Break the Micromanagement Habit, Mentoring Talent, Adapting to an Ever-changing World, and more."
     }
   ]
 }
