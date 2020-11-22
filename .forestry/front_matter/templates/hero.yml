@@ -42,3 +42,5 @@ fields:
     label: Caption
     default: Hey, that’s me! Stephen Klee.
   label: Headshot
+pages:
+- src/_data/intro.json
