@@ -20,8 +20,8 @@ fields:
         format: html
     label: Description
   config:
-    min: 
-    max: 
+    min: 2
+    max: 6
     labelField: 
   label: List
 pages:
