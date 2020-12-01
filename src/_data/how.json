@@ -7,11 +7,13 @@
     },
     {
       "title": "We’ll get to work on your roadmap!",
-      "description": "We’ll discuss your overall coaching goals and work together to craft a roadmap and schedule to ensure that you are fully equipped to reach your desired destination at the conclusion of our coaching journey. I will then send along a simple letter of understanding summarizing the mechanics of our agreement."
+      "description": "We’ll discuss your overall coaching goals and work together to craft a roadmap and schedule to ensure that you are well-positioned to reach your desired destination at the conclusion of our coaching journey. I will then send along a simple letter of understanding summarizing the mechanics of our agreement."
     },
     {
       "title": "We’ll part ways.",
       "description": "At the conclusion of our engagement, you will have achieved your leadership development goals and be fully equipped to continue developing your leadership toolkit on your own in the future."
     }
-  ]
+  ],
+  "quote_title": false,
+  "attribution": ""
 }
