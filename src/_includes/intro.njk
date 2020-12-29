@@ -9,6 +9,8 @@
     <picture>
       <img src="/static/images/{{ intro.headshot.image }}" alt="{{ intro.headshot.alt }}" loading="lazy">
     </picture>
+    {% if intro.headshot.caption %}
     <figcaption>{{ intro.headshot.caption }}</figcaption>
+    {% endif %}
   </figure>
 </section>
