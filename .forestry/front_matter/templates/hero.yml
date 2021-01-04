@@ -40,7 +40,7 @@ fields:
     config:
       required: false
     label: Caption
-    default: Hey, that’s me! Stephen Klee.
+    default: Hey, that’s me! Steve Klee.
   label: Headshot
 pages:
 - src/_data/intro.json
