@@ -53,11 +53,12 @@ header,
   grid-gap: var(--space--large);
   overflow-x: scroll;
   padding: var(--space--small) 2rem;
-  scroll-padding: var(--space--large);
+  scroll-padding: var(--space--base);
   scroll-snap-type: x mandatory;
 
   @media screen and (min-width: $breakpoint-base) {
     grid-auto-columns: 50vw;
+    scroll-padding: var(--space--large);
   }
 
   > * {
