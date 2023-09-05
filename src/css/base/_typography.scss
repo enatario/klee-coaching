@@ -65,12 +65,13 @@ h2,
 
   &::before {
     $_line-width: 2rem;
-    @include size($_line-width, 2px);
     background-color: var(--color-border--primary);
     content: "";
     display: none;
+    height: 2px;
     margin-left: calc((#{$_line-width} + var(--space--small)) * -1);
     margin-right: var(--space--small);
+    width: $_line-width;
     vertical-align: middle;
 
     @media screen and (min-width: $breakpoint-base) {

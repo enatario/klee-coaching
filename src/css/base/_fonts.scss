@@ -1,11 +1,15 @@
-@include font-face("WorkSans", $dir-font + "work-sans") {
+@font-face {
   font-display: swap;
+  font-family: "WorkSans";
   font-style: normal;
   font-weight: 100 900;
+  src: url($dir-font + "work-sans.woff2") format("woff2");
 }
 
-@include font-face("Quincy-CF", $dir-font + "quincy-cf") {
+@font-face {
   font-display: swap;
+  font-family: "Quincy-CF";
   font-style: normal;
   font-weight: normal;
+  src: url($dir-font + "quincy-cf.woff2") format("woff2");
 }
