@@ -7,5 +7,6 @@
     "image": "/klee__headshot.jpg",
     "alt": "A headshot of Stephen Klee.",
     "caption": ""
-  }
+  },
+  "_template": "hero"
 }
